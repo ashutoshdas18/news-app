@@ -47,7 +47,7 @@ const HomeComponent = function (){
     let config = {
         method: 'get',
         maxBodyLength: Infinity,
-        url: 'https://newsapi.org/v2/top-headlines?country=in&apiKey=d4fbbe4b540e401ba2d8321fdd557db6',
+        url: 'https://newsapi.org/v2/top-headlines?country=us&apiKey=d4fbbe4b540e401ba2d8321fdd557db6',
         headers: { }
       };
     const [data, setData] = useState(null);
